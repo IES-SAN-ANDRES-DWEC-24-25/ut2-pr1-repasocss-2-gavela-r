@@ -1,0 +1,22 @@
+.rojo:hover{
+    background-color: red;
+    cursor: all-scroll;
+}
+.tamaño:hover{
+    font-size: 50px;
+    cursor: cell;
+}
+.fuente:hover{
+    font-family: arial;
+    cursor:e-resize;
+}
+h1{
+    text-align: center;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+ul{
+    padding: 0px;
+}
