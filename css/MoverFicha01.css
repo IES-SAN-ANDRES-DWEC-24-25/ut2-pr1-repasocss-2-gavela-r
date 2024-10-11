@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+.caja{
+    margin: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+.ficha{
+    border:5px solid black;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+#ficha3{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#ficha1{
+    position: absolute;
+    top: 90px;
+    left: 340px;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#ficha2{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: green;
+}
+#ficha4{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
