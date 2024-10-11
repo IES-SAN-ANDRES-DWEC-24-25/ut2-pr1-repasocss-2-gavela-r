@@ -1,4 +1,24 @@
 h2::after{
-    content: url(../img/house.jpg);
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 100px; 
+    background-image: url(../img/house.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+p::first-letter{
+    font-size: 60px;
+    float: left;
     
+}
+p::first-line{
+    color: red;
+    
+}
+
+::selection{
+    color: red;
+    background: yellow;
 }

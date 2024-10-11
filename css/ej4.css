@@ -17,18 +17,14 @@ a:active{
 }
 a{
     text-decoration: none;
-    
-}
-#menu > p{
-    border-bottom: 1px solid red;
-    
-}
-#menu{
     width: 160px;
     padding: 3px;
     background-color: #f7f8e8;
     text-align: center;
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
-    
+    border-bottom: 1px solid #eeeeee;
+}
+#menu{
+    display: flex;
 }
